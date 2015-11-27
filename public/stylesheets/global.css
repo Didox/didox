@@ -18,3 +18,11 @@ fieldset, form, label, legend, input, button {
   margin: 0;
   border: 0;
 }
+
+
+img.logo{
+  width:40px;
+  border-radius: 6px;
+  border:1px solid #9c9c9c;
+  margin-top: -8px;
+}
