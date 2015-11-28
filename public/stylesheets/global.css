@@ -19,6 +19,9 @@ fieldset, form, label, legend, input, button {
   border: 0;
 }
 
+#clientes img{
+  margin-bottom: 10px;
+}
 
 .center {
   margin: auto;
@@ -45,6 +48,40 @@ img.logo{
     font-size: 25px;
 }
 
+@media (min-width: 1200px){
+  .col-lg-4 {
+    width: 23.333333%!important;
+  }
+}
+
+.topo-back{
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 28px;
+}
+
+.nolink{
+  color:#5a5a5a!important;
+  text-indent: none;
+}
+
+.nolink a:link {
+  color:#5a5a5a!important;
+  text-indent: none;
+}
+
+.nolink a:visited {
+  color:#5a5a5a!important;
+  text-indent: none;
+}
+.nolink a:hover {
+  color:#5a5a5a!important;
+  text-indent: none;
+}
+.nolink a:active {
+  color:#5a5a5a!important;
+  text-indent: none;
+}
 
 #myCarousel #sonho{ content:url("/imagens/sonho4.jpg"); }
 #myCarousel #solucoes{ content:url("/imagens/solucao4.jpg"); }
