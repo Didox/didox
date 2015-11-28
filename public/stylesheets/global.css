@@ -23,6 +23,10 @@ fieldset, form, label, legend, input, button {
   margin-bottom: 10px;
 }
 
+.share{
+  margin-bottom: 30px;
+}
+
 .center {
   margin: auto;
   width: 300px;
