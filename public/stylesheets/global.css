@@ -26,3 +26,15 @@ img.logo{
   border:1px solid #9c9c9c;
   margin-top: -8px;
 }
+
+.glyphicon-chevron-left:before {
+    content: "<";
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.glyphicon-chevron-right:before {
+    content: ">";
+    font-weight: bold;
+    font-size: 35px;
+}
