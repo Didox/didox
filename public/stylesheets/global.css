@@ -20,6 +20,12 @@ fieldset, form, label, legend, input, button {
 }
 
 
+.center {
+  margin: auto;
+  width: 300px;
+  padding: 10px;
+}
+
 img.logo{
   width:40px;
   border-radius: 6px;
@@ -30,11 +36,33 @@ img.logo{
 .glyphicon-chevron-left:before {
     content: "<";
     font-weight: bold;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .glyphicon-chevron-right:before {
     content: ">";
     font-weight: bold;
-    font-size: 35px;
+    font-size: 25px;
+}
+
+
+#myCarousel #sonho{ content:url("/imagens/sonho4.jpg"); }
+#myCarousel #solucoes{ content:url("/imagens/solucao4.jpg"); }
+
+@media (min-width: 500px) {
+  #myCarousel #sonho{ content:url("/imagens/sonho5.jpg"); }
+  #myCarousel #solucoes{ content:url("/imagens/solucao5.jpg"); }
+}
+
+@media (min-width: 768px) {
+  #myCarousel #sonho{ content:url("/imagens/sonho3.jpg"); }
+  #myCarousel #solucoes{ content:url("/imagens/solucao3.jpg"); }
+}
+@media (min-width: 992px) {
+  #myCarousel #sonho{ content:url("/imagens/sonho3.jpg"); }
+  #myCarousel #solucoes{ content:url("/imagens/solucao3.jpg"); }
+}
+@media (min-width: 1200px) {
+  #myCarousel #sonho{ content:url("/imagens/sonho.jpg"); }
+  #myCarousel #solucoes{ content:url("/imagens/solucao.jpg"); }
 }
