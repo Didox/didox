@@ -10,7 +10,8 @@
     "ejs": "2.3.3",
     "express": "4.13.3",
     "morgan": "1.2.3",
-    "newrelic": "*"
+    "newrelic": "*",
+    "mysql": "*"
   },
   "engines": {
     "node": "0.12.7"
