@@ -12,6 +12,11 @@ app.set('views', __dirname + '/app/views');
 app.set('view engine', 'ejs');
 
 app.use(function(req, res, next) {
+  if(req.headers.host == "didox.com.br"){
+    res.redirect("http://www.didox.com.br");
+    return;
+  }
+
   res.header('Vary', 'X-Device, Origin');
   res.setHeader('Cache-Control', 'max-age=3600, public, no-transform');
   next();
