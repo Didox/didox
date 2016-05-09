@@ -27,6 +27,10 @@ fieldset, form, label, legend, input, button {
   margin-bottom: 30px;
 }
 
+.solucoes{
+  margin-left: 50px;
+}
+
 .center {
   margin: auto;
   width: 300px;
